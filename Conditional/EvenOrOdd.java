@@ -1,3 +1,5 @@
+package Conditional;
+
 import java.util.*;
 public class EvenOrOdd {
     
@@ -6,10 +8,10 @@ public class EvenOrOdd {
          int number = sc.nextInt();
 
          if(number % 2 == 0){
-            System.out.println("Even");
+            System.out.println(" Number is : Even");
          }
          else{
-            System.out.println("Odd");
+            System.out.println(" Number is : Odd");
          }
     }
 }

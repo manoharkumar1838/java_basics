@@ -1,6 +1,8 @@
+package Conditional;
+
 public class LargestOf3 {
     public static void main(String[] args) {
-        int A = 6, B = 10, C = 8;
+        int A = 10, B = 6, C = 8;
 
         if((A >= B) && (A >= C)){
          System.out.println("Largest is A");
@@ -8,7 +10,7 @@ public class LargestOf3 {
         else if(B >= C){
             System.out.println("Largest is B");
         }
-        else{
+        else {
             System.out.println("Largest is C");
         }
     }

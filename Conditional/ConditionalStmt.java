@@ -1,9 +1,10 @@
+package Conditional;
 
-import java.util.*;
+// import java.util.*;
 
 public class ConditionalStmt {
     public static void main(String[] args) {
-        int age = 21; 
+        int age = 26; 
 
         // check first codition and if they are not satisfied then check 2nd condition
         
